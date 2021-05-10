@@ -1,7 +1,7 @@
 {
-  "name": "boiler-plate",
+  "name": "movie-app",
   "version": "1.0.0",
-  "description": "boiler-plate",
+  "description": "movie-app",
   "main": "index.js",
   "scripts": {
     "start": "node server/index.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dembbuto/boiler-plate.git"
+    "url": "git+https://github.com/dembbuto/movie-app.git"
   },
   "author": "dembbuto",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dembbuto/boiler-plate/issues"
+    "url": "https://github.com/dembbuto/movie-app/issues"
   },
-  "homepage": "https://github.com/dembbuto/boiler-plate#readme",
+  "homepage": "https://github.com/dembbuto/movie-app#readme",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "cookie-parser": "^1.4.5",
