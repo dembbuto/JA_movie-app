@@ -23,6 +23,7 @@ module.exports = {
 				endOfLine: 'auto',
 			},
 		],
+		'no-unused-vars': 0,
 	},
 	parserOptions: {
 		ecmaVersion: 12,
