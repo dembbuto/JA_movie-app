@@ -5,7 +5,7 @@ import { Button } from 'antd';
 function Favorite(props) {
 	const userFrom = props.userFrom;
 	const movieId = props.movieId;
-	const movieTitle = props.movieInfo.movieTitle;
+	const movieTitle = props.movieInfo.title;
 	const moviePost = props.movieInfo.backdrop_path;
 	const movieRunTime = props.movieInfo.runtime;
 
@@ -22,7 +22,6 @@ function Favorite(props) {
 
 	useEffect(() => {
 		Axios.post('/api/favorite/favoriteNumber', variables).then(response => {
-			console.log('favoriteNumber', response.data);
 			if (!response.data.success) {
 				alert('숫자 정보를 가져오는데 실패 했습니다.');
 			} else {
@@ -31,7 +30,6 @@ function Favorite(props) {
 		});
 
 		Axios.post('/api/favorite/favorited', variables).then(response => {
-			console.log('favorited', response);
 			if (!response.data.success) {
 				alert('정보를 가져오는데 실패 했습니다.');
 			} else {
@@ -53,7 +51,7 @@ function Favorite(props) {
 				},
 			);
 		} else {
-			Axios.post('/api/favorite/addFromFavorite', variables).then(response => {
+			Axios.post('/api/favorite/addToFavorite', variables).then(response => {
 				if (!response.data.success) {
 					alert('Favorite 리스트에 추가하는데 실패 했습니다.');
 				} else {
