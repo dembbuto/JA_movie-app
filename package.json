@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dembbuto/movie-app.git"
+    "url": "git+https://github.com/dembbuto/JA_movie-app.git"
   },
   "author": "dembbuto",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dembbuto/movie-app/issues"
+    "url": "https://github.com/dembbuto/JA_movie-app/issues"
   },
-  "homepage": "https://github.com/dembbuto/movie-app#readme",
+  "homepage": "https://github.com/dembbuto/JA_movie-app#readme",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "cookie-parser": "^1.4.5",
